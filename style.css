@@ -49,3 +49,107 @@ body{
 .burger{
     display: none;
 }
+.profile{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 32px;
+    position: relative;
+    gap: 160px;
+}
+.profile-title{
+    color: white;
+    font-weight: bolder;
+    font-size: 78px;
+}
+.profile-title .italic{
+    font-family: 'Miama', sans-serif;
+    font-weight:400;
+    font-size: 160px;
+    position: absolute;
+    margin-top: -50px;
+}
+.profile-description{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 50%;
+    font-weight: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(230, 83, 60, 1);
+    padding: 16px 45px;
+    border-radius: 42px;
+}
+.btn-profile{
+    background-color: rgba(17, 17, 17, 1);
+     border: 1px solid rgba(255, 255, 255, 1);
+}
+.button-btn{
+    display: flex;
+    gap: 20px;
+}
+.profile-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+    align-items: start;
+}
+.profile-img{
+    position: relative;
+}
+.box{
+    position: absolute;
+    border: 1px solid white;
+    margin-top: -450px;
+    margin-left: 220px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 195px;
+    height: 98px;
+    padding: 17px;
+}
+.box .price{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    color: white;
+}
+.box .des{
+    margin-top: 0;
+}
+.box2{
+    position: absolute;
+    border: 1px solid white;
+    margin-top: -160px;
+    margin-left: -90px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 195px;
+    height: 98px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+}
+.dot-content .price2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
